@@ -263,6 +263,9 @@ footer img {
     .first-extra-container-flex-item img{
         width: 100%;
     }
+    .first-extra-container-flex-item:last-child{
+        padding-left: 0%;
+      }
 
     footer img {
         width: 300px;

@@ -154,13 +154,7 @@ footer{
       .container img{
           width: 329px;
       }
-    .blogs{
-        display: grid;
-        grid-template-columns: 1fr;
-     
-        
-    }
-    article{
+      article{
         
         
         padding-left:16px;
@@ -169,6 +163,17 @@ footer{
        
         
     }
+    .blogs{
+        display: grid;
+        grid-template-columns: 1fr;
+     
+        
+    }
+    .blog img{
+        width: 100%;
+
+    }
+  
 
     
 }

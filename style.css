@@ -254,10 +254,13 @@ footer img {
         padding: 10px;
         border-radius: 10%;
     }
-    .first-extra-section{
+    .first-extra-container-flex{
         flex-direction: column;
     }
     .first-extra-container-flex-item{
+        width: 100%;
+    }
+    .first-extra-container-flex-item img{
         width: 100%;
     }
 

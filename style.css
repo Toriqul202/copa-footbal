@@ -29,6 +29,16 @@ header {
 }
 .right-area img {
     width: 100%;
+    animation: animate 2s infinite linear;
+}
+@keyframes animate{
+
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(10deg);
+    }
 }
 header .left-area h1 {
     color: #ffffff;
@@ -77,8 +87,8 @@ article {
 }
 .blog img {
     width: 100%;
+    
 }
-
 .blog-title {
     font-size: 28px;
     line-height: 40px;

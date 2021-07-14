@@ -29,6 +29,9 @@ header{
 .right-area{
     padding-right: 140px;
 }
+.right-area img{
+    width:556px;
+}
 header .left-area h1{
     color: #ffffff;
     font-size: 64px;
@@ -157,6 +160,9 @@ footer img{
     .right-area{
         padding-right: 0;
         width: 100%;
+      }
+      .right-area img{
+          width:330px;
       }
       .container img{
           width: 329px;

@@ -181,11 +181,12 @@ footer img{
     .blogs{
         display: grid;
         grid-template-columns: 1fr;
+        grid-column-gap:5px ;
      
         
     }
     .blog{
-        padding-right: 5px;
+        padding-right: 15px;
     }
     .blog img{
         width:400px ;

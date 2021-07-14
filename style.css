@@ -128,7 +128,7 @@ footer{
 
 
 @media  only screen and (max-width:420px) and  (min-width:320px){
-    header,main{
+    header, main{
         width: 100%;
     }  
     .container{
@@ -150,11 +150,11 @@ footer{
       }
     .blogs{
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: 1fr;
      
         
     }
-    .article{
+    article{
         
         
         padding-left:16px;

@@ -94,6 +94,58 @@ article {
     text-align: justify;
     margin-top: 0px;
 }
+/*----------- first-extra-section-edit------ */
+
+#first-extra-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+.first-extra-container-flex{
+    width:80%;
+    display: flex;
+    justify-content: center;
+}
+.first-extra-container-flex-item{
+    width: 50%;
+}
+.first-extra-container-flex-item img{
+    width: 100%;
+}
+.first-extra-container-flex-item:last-child{
+  padding-left: 10%;
+}
+
+.first-extra-container-flex-item h2{
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0px;
+}
+.first-extra-container-flex-item p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.first-extra-container-flex-item a{
+    font-size: 16px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    background-color: red;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+.first-extra-container-flex-item a:hover{
+    font-size: 16px;
+    padding: 10px 45px;
+    margin-top: 20px;
+    background-color: rgb(206, 66, 66);
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
 
 /*-------footer edit------ */
 footer {

@@ -127,10 +127,10 @@ footer{
 
 
 
-@media only screen and (max-width:688px){
-    header{
+@media  only screen and (max-width:420px) and  (min-width:320px){
+    header,main{
         width: 100%;
-    }
+    }  
     .container{
         display: flex;
         align-items: center;
@@ -142,7 +142,25 @@ footer{
     }
     .right-area{
         padding-right: 0;
+      }
+      .container img{
+          width: 329px;
+      }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+     
+        
     }
-}
-    
+    .article{
+        
+        
+        padding-left:16px;
+        
+        
+       
+        
+    }
 
+    
+}

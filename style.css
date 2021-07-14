@@ -132,16 +132,18 @@ footer{
         width: 100%;
     }  
     .container{
-        display: flex;
+        
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
     .left-area{
         padding-left: 0;
+        width: 100%;
     }
     .right-area{
         padding-right: 0;
+        width: 100%;
       }
       .container img{
           width: 329px;

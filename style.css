@@ -83,6 +83,9 @@ article{
     box-shadow: 1px 1px 1px 1px rgba(211, 211, 211, 0.691);
 
 }
+.blog img{
+    width: 300px;
+}
 
 .blog-title{
     font-size: 28px;

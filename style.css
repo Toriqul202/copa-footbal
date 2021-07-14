@@ -148,8 +148,30 @@ article {
 /*-------------second extra section edit--------- */
 #second-extra-section{
     text-align: center;
-    background-color: navajowhite;
+    background-color: red;
+    height: auto;
+    margin-top:5%;
+    padding: 5% 0%;
+
 }
+#second-extra-section h2{
+    font-size: 60px;
+    color: white;
+}
+
+#second-extra-section a{
+    padding: 10px 50px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    border:1px solid black;
+    color: white;
+}
+#second-extra-section a:hover{
+   background-color:tomato;
+}
+
+
 
 
 /*-------footer edit------ */
@@ -157,17 +179,26 @@ footer {
     text-align: center;
     margin-top: 50px;
 }
+footer img {
+    width: 438px;
+}
 .social-icon {
     margin-top: 16px;
+    margin-bottom:16px ;
 }
 #icon {
     font-size: 30px;
     margin-left: 20px;
     color: lightgray;
+    margin-bottom: 20px;
 }
-footer img {
-    width: 438px;
+#icon:nth-child(1){
+    margin-left: 0;
 }
+#icon:hover{
+   color: red;
+}
+
 /* Media Screen */
 
 @media only screen and (max-width: 480px) and (min-width: 320px) {

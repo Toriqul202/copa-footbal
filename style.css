@@ -127,7 +127,7 @@ footer{
 
 
 
-@media  only screen and (max-width:420px) and  (min-width:320px){
+@media  only screen and (max-width:480px) and  (min-width:320px){
     header, main{
         width: 100%;
     }  
@@ -140,6 +140,12 @@ footer{
     .left-area{
         padding-left: 0;
         width: 100%;
+    }
+    header .left-area h1{
+        color: #af4242;
+        font-size:34px;
+        margin-top: 0;
+        line-height: 80px;
     }
     .right-area{
         padding-right: 0;

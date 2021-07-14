@@ -4,6 +4,7 @@ body{
     padding:0px;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    
 }
 header{
     width: 1440px;
@@ -170,7 +171,7 @@ footer{
         
     }
     .blog img{
-        width: 100%;
+        width:330px ;
 
     }
   
